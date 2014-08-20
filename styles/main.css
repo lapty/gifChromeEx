@@ -1,0 +1,29 @@
+body {
+    font-family: helvetica;
+    background-color:#85D9F1;
+    text-align:center;
+    margin:0px;
+    padding:15px;
+    border:10px #4F514E solid;
+}
+
+h1 {
+  font-size:3em;
+  color:#AB4A37;
+}
+
+#pics ul li {
+  list-style-type:none;
+}
+
+#pics ul li p {
+
+  margin-bottom:1px;
+  text-align:center;
+  color:#4F514E;
+  font-size:1.3em;
+}
+
+#pics ul li img {
+  border:5px #347385 double;
+}
