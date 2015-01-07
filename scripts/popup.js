@@ -7,7 +7,7 @@ $(document).ready(function(){
       })
         .success(function(data){
           var pic = "<ul>" ;
-          for (var i = 0; i <= 7 ; i++) {
+          for (var i = 0; i < 7 ; i++) {
 
              pic += "<li>" + "<p>" + data.data.children[i].data.title + "</p>" + "<img src=\"" + data.data.children[i].data.url +"\">" + "</li>" ;
             }
